@@ -1,16 +1,68 @@
 body {
-    margin: 0;
-    background: white;
+    margin: 20px;
+    background: #ece9e1;
     text-align: left;
+}
+
+h1{
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    margin: 20px;
+}
+
+figcaption{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 320;
+    padding-right: 320;
+    text-align: center;
+    color: rgb(63, 63, 63);
+    font-size: small;
+}
+
+p{
+    margin: 30px;
+    /* You can add more than one value to attributes in case the first value is not compatible with the browser */
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Use target an id, prepend it with a '#' */
+/* Id styles overrides object styles */
+#p1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* to target a class, start prepend it with a '.' */
+/* class seems to be overridden by object styles */
+.odd{
+    color: sienna;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img-stats{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 /* Style grid */
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto auto;
 }
 
 .grid-item {
-    border: 2px solid black;
+    border-style: dotted;
+    border: 1px solid black;
+    text-align: center;
+    padding: 1  10px 4px;
+}
+
+.head {
+    font-weight: bold;
+    border-bottom: 4px double black;
+    text-align: center;
 }

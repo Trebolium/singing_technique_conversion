@@ -3,3 +3,14 @@ body {
     background: white;
     text-align: left;
 }
+
+/* Style grid */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.grid-item {
+    border: 2px solid black;
+}

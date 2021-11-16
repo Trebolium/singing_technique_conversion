@@ -1,2 +1,2 @@
 # singing_technique_conversion
-An adaption of the AutoVC architecture to suit the task of singing technique conversion
+Please visit the github page [here](https://trebolium.github.io/singing_technique_conversion/) to listen to examples of the stimuli used for our listening test as detailed in the paper [One-shot Singing Technique Conversion](https://cmmr2021.github.io/proceedings/pdffiles/cmmr2021_26.pdf).

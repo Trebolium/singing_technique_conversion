@@ -49,7 +49,12 @@ p{
 
 /* Style grid */
 
-.grid-container {
+.grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.grid-container3 {
     display: grid;
     grid-template-columns: auto auto auto;
 }

@@ -17,7 +17,7 @@
     <p>To illustrate the upperbound quality of our generated audio snippets, the table below presents original audio recordings in the left column, while the right column presents the same recording (without a converted singing technique) when resynthesized using the pretrained Wavenet vocoder.
         This demonstrates the artefacts and deterioration due to resynthesis alone, and therefore provides an indication of the upperbound audio quality in this context:</p>
 
-    <div class="grid-container">
+    <div class="grid-container2">
         <div class="grid-item head">Original</div>
         <div class="grid-item head">Resynthesized</div>      
         <div class="grid-item"><audio controls src="1295/m9_arpeggios_straight_u_org.mp3"></audio></div>
@@ -33,16 +33,13 @@
         Target technique recordings were not directly used for inference, and therefore only examples of these singing techniques are illustrated in this demo.</p>
         
     <p> The following tables table below presents the generated results (column 3) of the Vs1 model (which was trained only on the VocalSet dataset), accompanied with the original input audio (column 1) and an example of the target singing technique (column 2):</p>
-    <div class="grid-container">
+    <div class="grid-container3">
         <div class="grid-item head">Source singing</div>
         <div class="grid-item head">Target technique</div>      
         <div class="grid-item head">Converted audio</div>
-        <div class="grid-item"><audio controls src="1295/m9_scales_belt_o.mp3"></audio></div>
-        <div class="grid-item"><audio controls src="1295/m9_scales_straight_o.mp3"></audio></div>
+        <div class="grid-item"><audio controls src="1295/m5_scales_belt_o.mp3"></audio></div>
+        <div class="grid-item"><audio controls src="1295/m5_scales_straight_o.mp3"></audio></div>
         <div class="grid-item"><audio controls src="1295/1295-0 0 0 0 2_m5_scales_belt_o_straight.mp3"></audio></div>
-        <div class="grid-item"><audio controls src="1295/m9_scales_vocal_fry_i.mp3"></audio></div>
-        <div class="grid-item"><audio controls src="1295/m9_scales_vibrato_i.mp3"></audio></div>
-        <div class="grid-item"><audio controls src="1295/1295-0 0 0 3 4_m9_scales_vocal_fry_i_vibrato.mp3"></audio></div>
         <div class="grid-item"><audio controls src="1295/f9_arpeggios_belt_e.mp3"></audio></div>
         <div class="grid-item"><audio controls src="1295/f9_arpeggios_vibrato_e.mp3"></audio></div>
         <div class="grid-item"><audio controls src="1295/1295-0 0 1 0 4_f9_arpeggios_belt_e_vibrato.mp3"></audio></div>
@@ -58,13 +55,16 @@
         <div class="grid-item"><audio controls src="1295/f4_arpeggios_lip_trill_u.mp3"></audio></div>
         <div class="grid-item"><audio controls src="1295/f4_arpeggios_breathy_u.mp3"></audio></div>
         <div class="grid-item"><audio controls src="1295/1295-0 1 1 1 5_f4_arpeggios_lip_trill_u_breathy.mp3"></audio></div>
+        <div class="grid-item"><audio controls src="1295/m9_scales_vocal_fry_i.mp3"></audio></div>
+        <div class="grid-item"><audio controls src="1295/m9_scales_vibrato_i.mp3"></audio></div>
+        <div class="grid-item"><audio controls src="1295/1295-0 0 0 3 4_m9_scales_vocal_fry_i_vibrato.mp3"></audio></div>
         <div class="grid-item"><audio controls src="1295/f4_scales_breathy_u.mp3"></audio></div>
         <div class="grid-item"><audio controls src="1295/f4_scales_vocal_fry_u.mp3"></audio></div>
         <div class="grid-item"><audio controls src="1295/1295-0 1 1 5 3_f4_scales_breathy_u_fry.mp3"></audio></div>
     </div>
 
     <p id="p1">This table presents the generated results (column 3) of the Vs2 model (which was trained on all three datasets using the path optimised for VocalSet), accompanied with the original input audio (column 1) and an example of the target singing technique (column 2):</p>
-    <div class="grid-container">
+    <div class="grid-container3">
         <div class="grid-item head">Source audio</div>
         <div class="grid-item head">Target technique</div>      
         <div class="grid-item head">Converted technique</div>
@@ -94,8 +94,8 @@
         <div class="grid-item"><audio controls src="1295/1295-1 1 1 4 5_f4_arpeggios_vibrato_o_breathy.mp3"></audio></div>
     </div>
 
-    <p class="odd">This table presents the generated results (column 3) of the M1 model (which was trained on all three datasets using the path optimised for MedleyDB), accompanied with the original input audio (column 1) and an example of the target singing technique (column 2)</p>
-    <div class="grid-container">
+    <p id="p1">This table presents the generated results (column 3) of the M1 model (which was trained on all three datasets using the path optimised for MedleyDB), accompanied with the original input audio (column 1) and an example of the target singing technique (column 2):</p>
+    <div class="grid-container3">
         <div class="grid-item head">Source audio</div>
         <div class="grid-item head">Target technique</div>      
         <div class="grid-item head">Converted technique</div>
